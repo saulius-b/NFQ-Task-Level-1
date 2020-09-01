@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>NFQ Užduotis</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+
+<body>
+  <div id="header">
+    <h2><a href="index.html">NFQ užduotis</a></h2>
+  </div>
+  <div id="smallNav">
+    <ul id="navUl">
+      <li class="list"><a href="admin.html">Registracija</a></li>
+      <li class="list"><a href="svieslente.html">Švieslentė</a></li>
+      <li class="list"><a href="specialistas.html">Specialisto puslapis </a> </li>
+    </ul>
+  </div>
+  <div id="empty"></div>
+  <div id="form">
+    <h4>Pasirinkite norimą aptarnauti klientą bei spauskite mygtuką "Aptarnauti"</h4>
+    <div id="specialistInput">
+      <select id="specialistSelection" onchange="checking2(event)" required autocomplete="off">
+        <option value="Banko vadybininkas" id="selected2">Banko vadybininkas</option>
+        <option value="Šeimos gydytojas">Šeimos gydytojas</option>
+        <option value="Kirpėja">Kirpėja</option>
+        <option value="Servisas">Servisas</option>
+      </select>
+      <button type="button" id="btn2">Rodyti</button>
+      <div id="doctorsSelection"></div>
+      <div id="customerServed">
+        <button type="button" id="btn3">Aptarnauta</button>
+      </div>
+    </div>
+  </div>
+  <script src="specialistas.js"></script>
+</body>
+
+</html>
