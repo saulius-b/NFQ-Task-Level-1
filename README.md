@@ -1,1 +1,1 @@
-A JS app (using only a few lines o Jquerry), where you can register as a client to a chosen specialist(saved to Local storage), see a table of customers who are waiting, and also have a spacialists page, where customers are marked as served and deleted from local storage.
+A JS app (using only a few lines of Jquerry), where you can register as a client to a chosen specialist(saved to Local storage), see a table of customers who are waiting, and also have a spacialists page, where customers are marked as served and deleted from local storage.
